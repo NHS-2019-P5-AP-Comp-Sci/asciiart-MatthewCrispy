@@ -17,11 +17,64 @@
 // YOU CODE HERE :) 
 
 public class ASCIIArt {
+	// Big Baller always make big moves!
+	public static void firstrow() {
+		System.out.println("--------------------------------------------------");
+		System.out.println("|\"                                              \"|");
+		System.out.println("|                                                |");
+		System.out.println("|                                                |");
+		System.out.println("|                                                |");
+		System.out.println("|                                                |");
+		System.out.println("|              |------------------|              |");
+		System.out.println("|              |                  |              |");
+		System.out.println("|              |                  |              |");
+		System.out.println("|              |                  |              |");
+		System.out.println("|              |                  |              |");
+		System.out.println("|              |                  |              |");
+		System.out.println("|--------------|------------------|--------------|");
+		
+	}
+	public static void rim() {
+		System.out.println("|--------------####################--------------|");
+		System.out.println("               ####################               ");
+		System.out.println("                ##################                ");
+		System.out.println("                 ################                 ");
+		System.out.println("                  ##############                  ");
+		System.out.println("                   ############                   ");
+		System.out.println("                   ############                   ");
+	}
+	public static void pole() {
+		System.out.println("                      |   |                       ");
+		System.out.println("                      |   |                       ");
+		System.out.println("                      |   |                       ");
+		System.out.println("                      |   |                       ");
+		System.out.println("                      |   |                       ");
+		System.out.println("                      |   |                       ");
+		System.out.println("                      |   |                       ");
+		System.out.println("                      |   |                       ");
+		System.out.println("                      |   |                       ");
+		System.out.println("                      |   |                       ");
+		System.out.println("                      |   |                       ");
+		System.out.println("                      |   |                       ");
+		System.out.println("                      |   |                       ");
+		System.out.println("                      |   |                       ");
+		System.out.println("                      |   |                       ");
+	}
+	public static void base() {
+		System.out.println("              *********************               ");
+		System.out.println("              *********************               ");
+		System.out.println("**************************************************");
+		System.out.println("**************************************************");
+		System.out.println("**************************************************");
+		System.out.println("**************************************************");
+		System.out.println("**************************************************");
+
+	}
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		firstrow();
+		rim();
+		pole();
+		base();
+		System.out.println("Ball is life!");
 	}
 }
